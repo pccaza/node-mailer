@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="/node-mailer/server.js"></script>
+  </head>
+  <body>
+    <div class="form-container">
+      <form class="form" id="form-id">
+        <div class="contact-text"><h3>Contact</h3></div>
+        <div class="form-inputs">
+          <input
+            name="name"
+            type="text"
+            class="input-name inputs"
+            placeholder="Name"
+            id="name-id"
+          />
+          <input
+            name="email"
+            type="email"
+            class="input-email inputs"
+            placeholder="Email address"
+            id="email-id"
+          />
+          <input
+            type="url"
+            class="input-website inputs"
+            name="website"
+            placeholder="Company Website"
+            id="website-id"
+          />
+        </div>
+
+        <div class="message">
+          <textarea
+            name="message"
+            type="text"
+            class="input-message"
+            placeholder="Message"
+            id="message-id"
+          ></textarea>
+        </div>
+        <input class="border-button form-button" type="submit" value="submit" />
+      </form>
+    </div>
+  </body>
+</html>

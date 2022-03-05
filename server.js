@@ -18,15 +18,15 @@ app.post("/", (req, res) => {
     secure: false,
     port: 400,
     auth: {
-      user: "sprkdigitalmail@gmail.com",
-      pass: "retrer-xamwo1-nefkUq",
+      user: "ADD_EMAIL_HERE",
+      pass: "ADD_PASSWORD_HERE",
     },
   });
 
   const mailOptions = {
     from: req.body.email,
-    to: "sprkdigitalmail@gmail.com",
-    subject: "Potential Lead",
+    to: "SEND_TO_EMAIL",
+    subject: "MSG",
     text: req.body.message + " " + req.body.website + " " + req.body.email,
   };
 

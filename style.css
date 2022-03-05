@@ -9,10 +9,6 @@
   width: 100%;
 }
 
-.contact-text {
-  color: rgb(0, 0, 0);
-}
-
 .form-inputs {
   display: flex;
   flex-flow: column wrap;
@@ -25,7 +21,7 @@
   margin: 0.5rem 0 0.5rem 0;
   background: transparent;
   border: 2px solid gray;
-  color: rgb(0, 0, 0);
+
   font-size: 16px;
   width: 100%;
   border-radius: 10px;
@@ -41,7 +37,6 @@
   height: 10rem;
   padding: 0.8rem 0 0.8rem 0.8rem;
   resize: none;
-  color: rgb(0, 0, 0);
   font-size: 16px;
   border-radius: 10px;
   box-sizing: border-box;
@@ -57,7 +52,7 @@
   padding: 16px 32px;
   text-decoration: none;
   cursor: pointer;
-  border: 2px solid rgb(75, 75, 75);
+  border: 2px solid gray;
 }
 
 .form-button:hover {

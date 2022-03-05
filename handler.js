@@ -30,7 +30,7 @@ contactForm.addEventListener("submit", function (e) {
       website.value = "";
       message.value = "";
     } else {
-      alert("something went wrong... try us at hello@sprk.digital");
+      alert("something went wrong... ");
     }
   };
 
